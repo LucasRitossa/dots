@@ -1,0 +1,17 @@
+[lucas]
+	email = lucasr@posteo.us
+[user]
+	name = Lucas Ritossa
+	email = lucasr@posteo.us
+[credential]
+	helper = store
+
+[difftool]
+	prompt = false
+[diff]
+	tool = vimdiff
+[difftool "nvimdiff"]
+    cmd = "nvim -d \"$LOCAL\" \"$REMOTE\""
+
+[alias]
+	d = difftool
